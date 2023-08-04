@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
 
-export default {
-  
-  base: '/react-with-TOPe/' // Replace 'repo-name' with the name of your repository
-};
